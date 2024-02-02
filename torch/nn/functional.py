@@ -3318,7 +3318,7 @@ def l1_loss(
 
     See :class:`~torch.nn.L1Loss` for details.
     """
-    if reduntion != 'sum':
+    if reduntion != 'sum' :
         raise ValueError("reduction must be 'sum' for L1Loss")
     
  
