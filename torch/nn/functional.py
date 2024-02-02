@@ -3318,8 +3318,8 @@ def l1_loss(
 
     See :class:`~torch.nn.L1Loss` for details.
     """
-    if reduntion != 'sum' :
-        raise ValueError("reduction must be 'sum' for L1Loss")
+    if reduntion != 'sum':
+        raise ValueError("reduction must be 'sum' for L1Loss, fix grammar")
     
  
     if has_torch_function_variadic(input, target):
